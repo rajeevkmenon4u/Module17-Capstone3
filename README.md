@@ -41,4 +41,5 @@ Business objective is to automatically predict the result of a phone call to sel
 1. F1 score of all the models starts degrading
 2. For all the models the score of Precision & Recall is 60% - 40%
 3. Decision Tree score for both Precision & Recall is 60% - 60%
+4. Execution time for Decision tree is much faster compared to SVM which stands second in the list 
 ## Conclusion - Decision Tree models perform best and can be used for now; given the low criticality, we can proceed with a 60% probability of customer subscription to the deposit.
