@@ -19,9 +19,9 @@ Business objective is to automatically predict the result of a phone call to sel
    <img width="767" height="612" alt="image" src="https://github.com/user-attachments/assets/419462e4-4e49-4d9e-b189-f0a700929708" />
    
 ## Decision based on EDA
-   #### 1. For the whole dataset (it is 89% to 11%)
-   #### 2. Where as after considering the column "pdays not equal 999", the dataset gets better balaced with the ratio on (64% to 35%) 
-   #### 3. Decision to perfom model comparison with the small dataset first and then whole dataset.
+   1. For the whole dataset (it is 89% to 11%) 
+   2. Where as after considering the column "pdays not equal 999", the dataset gets better balaced with the ratio on (64% to 35%)  
+   3. Decision to perfom model comparison with the small dataset first and then whole dataset.
    
 ## Four Model Results with pdays not equal 999
 
