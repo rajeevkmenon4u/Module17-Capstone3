@@ -23,14 +23,22 @@ Business objective is to automatically predict the result of a phone call to sel
    2. Where as after considering the column "pdays not equal 999", the dataset gets better balaced with the ratio on (64% to 35%)  
    3. Decision to perfom model comparison with the small dataset first and then whole dataset.
    
-## Four Model Results with pdays not equal 999
-
+## Four Model Results - with column "pdays" filter
    <img width="1496" height="597" alt="image" src="https://github.com/user-attachments/assets/193ac7c2-4933-4cd0-b26b-6f425fc335d7" />
-   #### Based on the above results below are the findings for the unbalced dataset
-   #### In this case Decision tree is giving the best F1 score, Preciosn & Recall also looks good 
-   #### SVM has the good recall but from the time execution it is much longer then Decison Tree
    
-## Four Model Results with pdays not equal 999
+## Hypothesis - Based on the above results below are the findings.
+   1. In this case Decision tree is giving the best F1 score, Preciosn & Recall also looks good 
+   2. SVM has the good recall but from the time execution is much longer then Decison Tree
+## Four Model Results - with column "pdays" filter (Hyperparameters - Tuning)
+<img width="1249" height="723" alt="image" src="https://github.com/user-attachments/assets/24193427-5cc5-4f07-9258-c139e5a16512" />
 
+## Hypothesis - There is no major differnce in the overall peformance.
+
+## Four Model Results - whole dateset
 <img width="1353" height="715" alt="image" src="https://github.com/user-attachments/assets/62621fff-5f22-44ba-9e86-f604f4b433c2" />
 
+## Hypothesis - Based on the above results below are the findings.
+1. F1 score of all the models starts degrading
+2. For all the models the score of Precision & Recall is 60% - 40%
+3. Decision Tree score for both Precision & Recall is 60% - 60%
+## Conclusion - Decision Tree models perform best and can be used for now; given the low criticality, we can proceed with a 60% probability of customer subscription to the deposit.
